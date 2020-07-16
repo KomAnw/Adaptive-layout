@@ -1,0 +1,34 @@
+.place__column{
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 1280px){
+	.place__column{
+		width: calc((100%/2) - 3%);
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.place__column{
+		width: calc((100%/2) - 3%);
+	}
+}
+
+@media screen and (max-width: 768px){
+	.place__column{
+		width: calc((100%/2) - 3%);
+	}
+}
+
+@media screen and (max-width: 540px){
+	.place__column{
+		width: 100%;
+		margin: 5%;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.place__column{
+		width: 100%;
+	}
+}

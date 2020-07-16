@@ -1,0 +1,14 @@
+.comments-card__image{
+	width: 97px;
+	height: 97px;
+	border-radius: 50%;
+	margin-top: 72px;
+	margin-bottom: 42px;
+}
+
+@media screen and (max-width: 768px){
+	.comments-card__image{
+		margin-bottom: 3%;
+		margin-top: 10%;
+	}
+}

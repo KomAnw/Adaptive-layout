@@ -1,0 +1,42 @@
+@import url(_active/header__lang_active.css);
+
+.header__lang{
+	width: 30px;
+	height: 23px;
+	padding: 0;
+	margin-top: 30px;
+	margin-right: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 23px;
+	border: none;
+	color: white;
+	background: #2A2C2F;
+	cursor: pointer;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+	text-decoration: none;
+}
+
+.header__lang:last-child{
+	margin-right: 0;
+}
+
+.header__lang:hover{
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 375px){
+	.header__lang{
+		font-size: 18px;
+		line-height: 17px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.header__lang{
+		font-size: 18px;
+		line-height: 17px;
+	}
+}

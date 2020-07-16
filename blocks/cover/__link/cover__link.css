@@ -1,0 +1,24 @@
+.cover__link{
+	text-decoration: none;
+	height: 594px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-image: url(../../../images/cover/cover_bg.jpg);
+	background-repeat: no-repeat;
+	box-shadow: inset 0px 0px 10px 300px rgba(42, 44, 47, 0.3);
+	transition: box-shadow 0.2s linear;
+	background-position: center;
+	background-size: cover;
+}
+
+.cover__link:hover{
+	box-shadow: inset 0px 0px 10px 300px rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px){
+	.cover__link{
+		width: 100%;
+		height: auto;
+	}
+}

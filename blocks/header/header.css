@@ -1,0 +1,35 @@
+@import url(./__logo/header__logo.css);
+@import url(./__buttons/header__buttons.css);
+@import url(./__lang/header__lang.css);
+@import url(./__lang/_active/header__lang_active.css);
+
+.header{
+	width: 1184px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1240px){
+	.header{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.header{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.header{
+		width: 90%;
+	}
+}

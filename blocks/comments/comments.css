@@ -1,0 +1,37 @@
+@import url(./__container/comments__container.css);
+
+
+.comments{
+	width: 1184px;
+	font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1280px){
+	.comments{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.comments{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.comments{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.comments{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.comments{
+		width: 95%;
+	}
+}

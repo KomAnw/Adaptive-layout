@@ -1,0 +1,12 @@
+.footer__link-el{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 540px){
+	.footer__link-el{
+		width: 100%;
+		margin-bottom: 2%;
+	}
+}

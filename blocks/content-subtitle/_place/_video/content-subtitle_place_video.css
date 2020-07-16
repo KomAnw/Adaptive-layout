@@ -1,0 +1,45 @@
+@media screen and (max-width: 1024px){
+	.content-subtitle_place_video{
+		width: 80%;
+		font-size: 3vw;
+		line-height: 4vw;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.content-subtitle_place_video{
+		width: 80%;
+		font-size: 24px;
+		line-height: 35px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.content-subtitle_place_video{
+		width: 90%;
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.content-subtitle_place_video{
+		width: 90%;
+		font-size: 4vw;
+		line-height: 5vw;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.content-subtitle_place_video{
+		font-size: 16px;
+		line-height: 23px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.content-subtitle_place_video{
+		font-size: 16px;
+		line-height: 23px;
+	}
+}

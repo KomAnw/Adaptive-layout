@@ -1,0 +1,31 @@
+.video-item__subtitle{
+	width: 285px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+	color: #FFFFFF;
+	margin: 0 0 5% 5%;
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 768px){
+	.video-item__subtitle{
+		font-size: 14px;
+		line-height: 15px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.video-item__subtitle{
+		font-size: 14px;
+		line-height: 15px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.video-item__subtitle{
+		font-size: 14px;
+		line-height: 15px;
+	}
+}

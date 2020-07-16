@@ -1,0 +1,35 @@
+.video-item__duration{
+	width: calc((100% - 5%) - 44px);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: 0.3em;
+	color: #FFFFFF;
+	margin: 10% 0 0 5%;
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 1280px){
+	.video-item__duration{
+		width: calc((100% - 5%) - 12px);
+	}
+}
+
+@media screen and (max-width: 850px){
+	.video-item__duration{
+		margin-top: 8%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.video-item__duration{
+		margin: 17px 0 8px 5%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.video-item__duration{
+		margin: 10% 0 3% 5%;
+	}
+}

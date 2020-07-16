@@ -1,0 +1,48 @@
+.footer__copyright{
+	width: 282px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	color: #FFFFFF;
+	margin: 170px 0 48px 0;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 1024px){
+	.footer__copyright{
+		font-size: 1.2vw;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.footer__copyright{
+		font-size: 1.5vw;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.footer__copyright{
+		font-size: 3.5vw;
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.footer__copyright{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.footer__copyright{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}

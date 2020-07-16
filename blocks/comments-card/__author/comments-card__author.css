@@ -1,0 +1,15 @@
+.comments-card__author{
+	width: 80%;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 22px;
+	color: #FFFFFF;
+	margin-top: 24px;
+}
+
+@media screen and (max-width: 768px){
+	.comments-card__author{
+		display: none;
+	}
+}

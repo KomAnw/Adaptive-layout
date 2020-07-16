@@ -1,0 +1,38 @@
+@import url(./__image/comments-card__image.css);
+@import url(./__block-quote/comments-card__block-quote.css);
+@import url(./__author/comments-card__author.css);
+@import url(__quote/comments-card__quote.css);
+@import url(./__author/_mobile_version/comments-card__author_mobile_version.css);
+
+.comments-card{
+	width: 382px;
+	margin-right: 19px;
+	font-family: Inter, Arial, sans-serif;
+}
+
+.comments-card:last-child{
+	margin: 0;
+}
+
+@media screen and (max-width: 1280px){
+	.comments-card{
+		width: calc((100%/3) - 19px);
+	}
+}
+
+@media screen and (max-width: 768px){
+	.comments-card{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 80%;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.comments-card{
+		width: 95%;
+		margin-right: 0;
+	}
+}

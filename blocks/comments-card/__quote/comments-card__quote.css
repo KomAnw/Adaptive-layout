@@ -1,0 +1,51 @@
+.comments-card__quote{
+	width: 382px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+@media screen and (max-width: 1280px){
+	.comments-card__quote{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.comments-card__quote{
+		width: 70%;
+		font-size: 16px;
+		line-height: 23px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.comments-card__quote{
+		width: 100%;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.comments-card__quote{
+		width: 100%;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.comments-card__quote{
+		font-size: 16px;
+		line-height: 23px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.comments-card__quote{
+		font-size: 16px;
+		line-height: 23px;
+	}
+}
